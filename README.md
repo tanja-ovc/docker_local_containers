@@ -14,21 +14,23 @@
 
 ```cd docker_local_containers/```
 
-Cоздать и активировать виртуальное окружение:
+Cоздать виртуальное окружение:
 
 ```python3 -m venv venv```
 
-```source venv/bin/activate```
+Активировать виртуальное окружение:
+
+* Для Mac:
+ 
+    ```source venv/bin/activate```
+
+* Для Windows:
+
+    ```source venv/Scripts/activate```
 
 При необходимости обновить pip:
 
 ```pip install --upgrade pip```
-
-Установить зависимости из файла requirements.txt:
-
-```cd api_yamdb```
-
-```pip install -r requirements.txt```
 
 ### Запуск проекта
 
